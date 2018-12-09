@@ -1,0 +1,64 @@
+body{
+    background-color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color:black;
+}
+/* #webminar{
+    background-color: aliceblue;
+} */
+.tile{
+    /* background-color:grey; */
+    width: 150px;
+    height: 200px;
+    /* border: 3px solid black; */
+    padding: 20px;
+    margin: 1px;
+    float: left;
+}
+.tile-double{
+    width: 342px;
+    height: 200px;
+    padding: 20px;
+    margin: 1px;
+    float: left;
+}
+.tile-list a{
+    color:white;
+    text-decoration: none;
+}
+ul.tile-list li{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    list-style-type: circle;
+}
+ol.tile-list li{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    color: black;
+}
+.orange{
+    background-color: orange;
+}
+.grey{
+    background-color: gray;
+}
+.white{
+    background-color: white;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.pink{
+    background-color: pink;
+}
+.newimage{
+    background-image: url("../img/ktm.jpg");
+}
+#main-container{
+    max-width: 900px;
+    margin: 0 auto;
+}
